@@ -2,7 +2,7 @@
 * This problem was learned from NeetCode channel. Link to the video: https://youtu.be/Ua0GhsJSlWM
 * */
 
-function longestCommonSubSequence(text1, text2) {
+export function longestCommonSubSequence(text1, text2) {
     /*
         It's a two dimension dp problem, so let us start from generating the matrix for solution
     */
@@ -33,5 +33,3 @@ function longestCommonSubSequence(text1, text2) {
      */
     return dp[0][0];
 }
-
-const result = longestCommonSubSequence("abcde", "ace")
