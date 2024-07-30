@@ -1,5 +1,4 @@
 import './style.css'
-import { longestCommonSubSequence } from "./csBlind75/dynamic/leetCode1143.js";
 
 document.querySelector('#app').innerHTML = `
     <div>
@@ -7,5 +6,3 @@ document.querySelector('#app').innerHTML = `
         <p>look into the console to view answers</p>
     </div>
 `
-
-// longestCommonSubSequence("abcde", "ace")
